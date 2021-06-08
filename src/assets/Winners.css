@@ -1,0 +1,53 @@
+#winners{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+#winners .content{
+    width: 100%;
+}
+#winners .content h2{
+    width: 100%;
+    text-align: center;
+}
+#winners .winners{
+    max-height: 70vh;
+    overflow: auto;
+    padding: 0px 24px;
+}
+#winners .winners .winner{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 6px;
+    background: #f1f1f1;
+    margin: 4px 0px;
+    border-radius: 4px;
+}
+#winners .winners .winner .name{
+    max-width: 120px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+#winners .winners::-webkit-scrollbar {width: 10px;}
+#winners .winners::-webkit-scrollbar-track {background: #f1f1f1;}
+#winners .winners::-webkit-scrollbar-thumb {background: #888;}
+#winners .winners::-webkit-scrollbar-thumb:hover {background: #555;}
+
+@media(max-width: 1080px)
+{
+    #winners{
+        width: 100%;
+    }
+    #winners .winners .winner .name{
+        max-width: 250px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    #winners .winners{
+        max-height: unset;
+    }
+}

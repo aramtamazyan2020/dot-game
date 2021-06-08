@@ -1,0 +1,31 @@
+#score{
+    width: 450px;
+    background-color: #f1f1f1;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 22px;
+}
+#score > div{
+    display: flex;
+    align-items: center;
+}
+#score > div .field{
+    border: 1px solid #e5e5e5;
+    padding: 2px 4px;
+    border-radius: 100%;
+    width: max-content;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+}
+#score > div .icon{
+    width: 30px;
+    height: 30px;
+}
+#score .player_score .icon{
+    margin-right: 10px;
+}
+#score .computer_score .icon{
+    margin-left: 10px;
+}

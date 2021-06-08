@@ -1,0 +1,18 @@
+#gameContainer{
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#gameContainer > .content{
+    width: 70%;
+}
+@media(max-width: 1080px)
+{
+    #gameContainer{
+        padding: 80px 0px;
+        height: auto;
+        width: 100%;
+    }
+}

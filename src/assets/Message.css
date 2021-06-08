@@ -1,0 +1,7 @@
+#message{
+    margin-top: 12px;
+}
+#message > .content{
+    text-align: center;
+    font-size: 18px;
+}
